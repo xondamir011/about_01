@@ -25,32 +25,36 @@ const About = () => {
   ];
 
   return (
-    <div className="p-3 text-white max-w-xl mx-auto pb-24">
+    <div className="text-white px-4 pb-28 max-w-5xl mx-auto">
 
       {/* TITLE */}
       <motion.h1
-        initial={{ opacity: 0, y: -30 }}
+        initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-4xl text-purple-400 mb-4 text-center font-bold">
+        className="text-3xl md:text-5xl font-bold text-center text-purple-400 mt-16 mb-4"
+      >
         {t.aboutPage.title}
       </motion.h1>
 
       <hr className="border-3 mb-5 mt-6 border-purple-400"/>
 
-      {/* TEXT */}
-      <motion.p initial={{ opacity: 0 }}
+      <motion.p
+        initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
-        className="text-gray-300 mb-8 text-lg text-center">
+        className="text-gray-400 text-center max-w-2xl mx-auto mb-10"
+      >
         {t.aboutPage.description}
       </motion.p>
 
+      <hr className="border-purple-400 border-2 w-1/2 mx-auto mb-12" />
+
       {/* SKILLS */}
-      <h2 className="text-2xl text-purple-400 mb-5 text-center">
+      <h2 className="text-xl md:text-2xl text-purple-400 mb-6 text-center">
         {t.aboutPage.skillsTitle}
       </h2>
 
-      <div className="grid grid-cols-2 gap-5 mb-10">
+       <div className="grid grid-cols-2 gap-5 mb-10">
         {skillsList.map((skill, i) => (
           <motion.div
             key={skill.key}
@@ -84,7 +88,7 @@ const About = () => {
       </div>
 
       {/* FEATURES */}
-      <h2 className="text-2xl text-purple-400 mb-6 text-center">
+      <h2 className="text-xl md:text-2xl text-purple-400 mb-6 text-center">
         {t.aboutPage.featuresTitle}
       </h2>
 
@@ -94,19 +98,18 @@ const About = () => {
             key={f.key}
             initial={{ opacity: 0, x: -80 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{
-              duration: 0.5,
-              delay: i * 0.15,
-            }}
+            transition={{ delay: i * 0.15 }}
             whileHover={{
               x: 10,
               boxShadow: "0px 0px 30px #a855f7",
             }}
-            className="flex items-center gap-5 bg-[#111] p-6 rounded-3xl cursor-pointer">
+            whileTap={{ scale: 0.97 }}
+            className="flex items-center gap-5 bg-[#111]/80 backdrop-blur-lg border border-purple-500/20 p-5 rounded-2xl cursor-pointer">
             <motion.div
               className="text-3xl"
               animate={{ scale: [1, 1.3, 1] }}
-              transition={{ repeat: Infinity, duration: 2 }}>
+              transition={{ repeat: Infinity, duration: 2 }}
+            >
               {f.icon}
             </motion.div>
 
@@ -120,7 +123,7 @@ const About = () => {
             </div>
           </motion.div>
         ))}
-       </div>
+      </div>
     </div>
   );
 };

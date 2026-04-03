@@ -17,7 +17,6 @@ const Home = () => {
 
   return (
     <div className="text-white px-4 pb-24">
-
       <div className="flex flex-col items-center justify-center text-center mt-16">
         <h1 className="text-4xl font-bold mb-5">
          <span className="text-purple-400">{t.homePage.title}</span>
@@ -34,8 +33,7 @@ const Home = () => {
       <div className="mt-12 space-y-6 max-w-xl mx-auto">
 
         {cards.map((card, i) => (
-          <motion.div
-            key={i}
+          <motion.div key={i}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -46,6 +44,11 @@ const Home = () => {
             whileHover={{
               scale: 1.03,
               boxShadow: "0px 0px 25px #a855f7",
+            }}
+
+            whileTap={{
+              scale: 1.03,
+              boxShadow: "0px 0px 15px #a855f7"
             }}
             className="bg-[#111] p-6 rounded-3xl border border-purple-500/20">
             <h2 className="text-lg font-bold text-white mb-2">
