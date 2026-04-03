@@ -47,8 +47,8 @@ const Home = () => {
             }}
 
             whileTap={{
-              scale: 1.03,
-              boxShadow: "0px 0px 15px #a855f7"
+              scale: 1.20,
+              boxShadow: "0px 0px 25px #a855f7"
             }}
             className="bg-[#111] p-6 rounded-3xl border border-purple-500/20">
             <h2 className="text-lg font-bold text-white mb-2">

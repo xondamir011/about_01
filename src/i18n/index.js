@@ -84,7 +84,7 @@ export const translations = {
   frontend: "Frontend",
   landing: "Landing Page",
   real: "Real Projects",
-
+  noProjects:"😕 No projects found",
   movieTrailer: "Movie Trailer",
   portfolio: "Portfolio",
   carShowcase: "Car Showcase",
@@ -175,7 +175,7 @@ projects: {
   frontend: "Frontend",
   landing: "Landing sahifa",
   real: "Haqiqiy loyihalar",
-
+  noProjects:"😕 Loyihalar topilmadi",
   movieTrailer: "Kino treyler",
   portfolio: "Portfolio",
   carShowcase: "Avtomobil sahifasi",
@@ -266,7 +266,7 @@ projects: {
   frontend: "Фронтенд",
   landing: "Лендинг",
   real: "Реальные проекты",
-
+  noProjects:"😕 Проекты не найдены",
   movieTrailer: "Трейлер фильма",
   portfolio: "Портфолио",
   carShowcase: "Авто витрина",
@@ -323,7 +323,7 @@ projects: {
   frontend: "Frontend",
   landing: "Landing Sayfa",
   real: "Gerçek Projeler",
-
+  noProjects:"😕 Proje bulunamadı",
   movieTrailer: "Film Fragmanı",
   portfolio: "Portföy",
   carShowcase: "Araba Tanıtımı",
@@ -380,7 +380,7 @@ projects: {
   frontend: "Frontend",
   landing: "Landing Seite",
   real: "Echte Projekte",
-
+  noProjects:"😕 Keine Projekte gefunden",
   movieTrailer: "Film Trailer",
   portfolio: "Portfolio",
   carShowcase: "Auto Showcase",
@@ -494,7 +494,7 @@ projects: {
   frontend: "Frontend",
   landing: "Landing Page",
   real: "Proyectos reales",
-
+  noProjects:"😕 No se encontraron proyectos",
   movieTrailer: "Tráiler de película",
   portfolio: "Portafolio",
   carShowcase: "Exhibición de autos",
@@ -551,7 +551,7 @@ projects: {
   frontend: "Frontend",
   landing: "Landing Page",
   real: "Progetti reali",
-
+  noProjects:"😕 Nessun progetto trovato",
   movieTrailer: "Trailer film",
   portfolio: "Portfolio",
   carShowcase: "Auto vetrina",
@@ -608,7 +608,7 @@ projects: {
   frontend: "Frontend",
   landing: "Landing Page",
   real: "Projetos reais",
-
+  noProjects:"😕 Nenhum projeto encontrado",
   movieTrailer: "Trailer de filme",
   portfolio: "Portfólio",
   carShowcase: "Exibição de carros",
@@ -665,7 +665,7 @@ projects: {
   frontend: "فرونت إند",
   landing: "صفحة هبوط",
   real: "مشاريع حقيقية",
-
+  noProjects:"😕 لم يتم العثور على مشاريع",
   movieTrailer: "عرض فيلم",
   portfolio: "ملف الأعمال",
   carShowcase: "عرض السيارات",
@@ -722,7 +722,7 @@ projects: {
   frontend: "फ्रंटएंड",
   landing: "लैंडिंग पेज",
   real: "रियल प्रोजेक्ट्स",
-
+  noProjects:"😕 कोई प्रोजेक्ट नहीं मिला",
   movieTrailer: "मूवी ट्रेलर",
   portfolio: "पोर्टफोलियो",
   carShowcase: "कार शोकेस",
@@ -779,7 +779,7 @@ projects: {
   frontend: "前端",
   landing: "着陆页",
   real: "真实项目",
-
+  noProjects:"😕 没有找到项目",
   movieTrailer: "电影预告",
   portfolio: "作品集",
   carShowcase: "汽车展示",
@@ -836,7 +836,7 @@ projects: {
   frontend: "프론트엔드",
   landing: "랜딩 페이지",
   real: "실제 프로젝트",
-
+  noProjects: "😕 프로젝트를 찾을 수 없습니다",
   movieTrailer: "영화 트레일러",
   portfolio: "포트폴리오",
   carShowcase: "자동차 쇼케이스",
@@ -893,11 +893,11 @@ projects: {
   frontend: "フロントエンド",
   landing: "ランディングページ",
   real: "実際のプロジェクト",
-
+  noProjects:"😕 プロジェクトが見つかりません",
   movieTrailer: "映画トレーラー",
   portfolio: "ポートフォリオ",
   carShowcase: "車の紹介",
   telegramBot: "テレグラムボット",
 },
-  },
+ },
 };

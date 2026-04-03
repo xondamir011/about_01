@@ -31,8 +31,7 @@ const About = () => {
       <motion.h1
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-3xl md:text-5xl font-bold text-center text-purple-400 mt-16 mb-4"
-      >
+        className="text-3xl md:text-5xl font-bold text-center text-purple-400 mt-16 mb-4">
         {t.aboutPage.title}
       </motion.h1>
 
@@ -42,8 +41,7 @@ const About = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
-        className="text-gray-400 text-center max-w-2xl mx-auto mb-10"
-      >
+        className="text-gray-400 text-center max-w-2xl mx-auto mb-10">
         {t.aboutPage.description}
       </motion.p>
 
@@ -66,7 +64,7 @@ const About = () => {
               type: "spring",
             }}
             whileHover={{
-              scale: 1.1,
+              scale: 1.10,
               rotate: 2,
               boxShadow: "0px 0px 25px #a855f7",
             }}
@@ -108,8 +106,7 @@ const About = () => {
             <motion.div
               className="text-3xl"
               animate={{ scale: [1, 1.3, 1] }}
-              transition={{ repeat: Infinity, duration: 2 }}
-            >
+              transition={{ repeat: Infinity, duration: 2 }}>
               {f.icon}
             </motion.div>
 

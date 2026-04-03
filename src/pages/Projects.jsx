@@ -23,11 +23,10 @@ import img15 from "../assets/img15.png";
 const Projects = () => {
   const { lang } = useLang();
   const t = translations[lang] || translations["en"];
-
   const [filter, setFilter] = useState("all");
   const [search, setSearch] = useState("");
-  const [activeCard, setActiveCard] = useState(null); // 🔥 mobile uchun
-
+  const [activeCard, setActiveCard] = useState(null);
+  
   const filters = [
     { key: "all", label: t.projects?.all || "All" },
     { key: "frontend", label: t.projects?.frontend || "Frontend" },
@@ -98,9 +97,8 @@ const Projects = () => {
           const isActive = activeCard === i;
 
           return (
-            <motion.div
-              key={i}
-              onClick={() => setActiveCard(isActive ? null : i)} // 🔥 tap
+            <motion.div key={i}
+              onClick={() => setActiveCard(isActive ? null : i)} 
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #a855f7", }}
@@ -118,14 +116,12 @@ const Projects = () => {
                 <div
                   className={`absolute top-3 right-3 transition ${
                     isActive ? "opacity-100" : "opacity-0 md:group-hover:opacity-100"
-                  }`}
-                >
+                  }`}>
                   <a
                     href={p.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-black/70 p-2 rounded-xl"
-                  >
+                    className="bg-black/70 p-2 rounded-xl">
                     <ExternalLink size={18} />
                   </a>
                 </div>
@@ -147,7 +143,7 @@ const Projects = () => {
 
       {filtered.length === 0 && (
         <p className="text-center text-gray-400 mt-10">
-          😕 No projects found
+          {t.projects?.noProjects || "😕 No projects found"}
         </p>
       )}
     </div>
