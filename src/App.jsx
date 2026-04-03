@@ -26,7 +26,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-mist-950
+    <div className="min-h-screen 
     bg-[linear-gradient(#222_1px,transparent_1px),linear-gradient(90deg,#222_1px,transparent_1px)]
     bg-[size:40px_40px]">
 
