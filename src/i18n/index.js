@@ -34,7 +34,7 @@ export const translations = {
 
    contactPage: {
     name: "Xondamir Madaliyev",
-    role: "Frontend Developer | Designer",
+    role: "Software Engineer | Grapih Design",
     frontend: "Frontend",
     ui: "UI/UX",
     freelancer: "Freelancer",
@@ -125,7 +125,7 @@ export const translations = {
 
  contactPage: {
   name: "Xondamir Madaliyev",
-  role: "Frontend Dasturchi | Dizayner",
+  role: "Dasturiy ta’minot muhandisi | Grafik Dizayner",
   frontend: "Frontend",
   ui: "UI/UX",
   freelancer: "Frilanser",
@@ -216,7 +216,7 @@ projects: {
 
  contactPage: {
   name: "Хондамир Мадалиев",
-  role: "Frontend разработчик | Дизайнер",
+  role: "Инженер-программист | Графический дизайн",
   frontend: "Фронтенд",
   ui: "UI/UX",
   freelancer: "Фрилансер",
@@ -291,7 +291,7 @@ projects: {
 
     contactPage:  {
       name: "Xondamir Madaliyev",
-      role: "Frontend Geliştirici | Tasarımcı",
+      role: "Yazılım Mühendisi | Grafik Tasarım",
       frontend: "Frontend",
       ui: "UI/UX",
       freelancer: "Serbest Çalışan",
@@ -348,7 +348,7 @@ projects: {
 
     contactPage:  {
       name: "Xondamir Madaliyev",
-      role: "Frontend-Entwickler | Designer",
+      role: "Softwareentwickler | Grafikdesign",
       frontend: "Frontend",
       ui: "UI/UX",
       freelancer: "Freiberufler",
@@ -405,7 +405,7 @@ projects: {
 
     contactPage:  {
       name: "Xondamir Madaliyev",
-      role: "Développeur Frontend | Designer",
+      role: "Ingénieur logiciel | Design graphique",
       frontend: "Frontend",
       ui: "UI/UX",
       freelancer: "Freelance",
@@ -462,7 +462,7 @@ projects: {
 
     contactPage: {
       name: "Xondamir Madaliyev",
-      role: "Desarrollador Frontend | Diseñador",
+      role: "Ingeniero de software | Diseño gráfico",
       frontend: "Frontend",
       ui: "UI/UX",
       freelancer: "Freelancer",
@@ -519,7 +519,7 @@ projects: {
 
     contactPage: {
       name: "Xondamir Madaliyev",
-      role: "Sviluppatore Frontend | Designer",
+      role: "Ingegnere del software | Design grafico",
       frontend: "Frontend",
       ui: "UI/UX",
       freelancer: "Freelance",
@@ -576,7 +576,7 @@ projects: {
 
     contactPage: {
       name: "Xondamir Madaliyev",
-      role: "Desenvolvedor Frontend | Designer",
+      role: "Engenheiro de software | Design gráfico",
       frontend: "Frontend",
       ui: "UI/UX",
       freelancer: "Freelancer",
@@ -633,7 +633,7 @@ projects: {
 
     contactPage: {
       name: "خوندامير مادالييف",
-      role: "مطور فرونت إند | مصمم",
+      role: "مهندس برمجيات | التصميم الجرافيكي",
       frontend: "فرونت إند",
       ui: "UI/UX",
       freelancer: "مستقل",
@@ -690,7 +690,7 @@ projects: {
 
     contactPage:  {
       name: "खोंदमिर मादालियेव",
-      role: "फ्रंटएंड डेवलपर | डिज़ाइनर",
+      role: "सॉफ्टवेयर इंजीनियर | ग्राफिक डिजाइन",
       frontend: "फ्रंटएंड",
       ui: "UI/UX",
       freelancer: "फ्रीलांसर",
@@ -747,7 +747,7 @@ projects: {
 
     contactPage: {
       name: "洪达米尔·马达利耶夫",
-      role: "前端开发 | 设计师",
+      role: "软件工程师 | 平面设计",
       frontend: "前端",
       ui: "UI/UX",
       freelancer: "自由职业者",
@@ -804,7 +804,7 @@ projects: {
 
     contactPage: {
       name: "혼다미르 마달리예프",
-      role: "프론트엔드 개발자 | 디자이너",
+      role: "소프트웨어 엔지니어 | 그래픽 디자인",
       frontend: "프론트엔드",
       ui: "UI/UX",
       freelancer: "프리랜서",
@@ -861,7 +861,7 @@ projects: {
 
     contactPage: {
       name: "ホンダミール・マダリエフ",
-      role: "フロントエンド開発者 | デザイナー",
+      role: "ソフトウェアエンジニア | グラフィックデザイン",
       frontend: "フロントエンド",
       ui: "UI/UX",
       freelancer: "フリーランス",
