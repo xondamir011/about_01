@@ -94,7 +94,7 @@ const Contact = () => {
           href="tel:+998935607563"
           className="p-3 rounded-xl bg-[#111] border border-purple-500
           hover:shadow-[0_0_20px_#10b981] transition">
-          📞 {t.contactPage.phone}: +998 93 560 75 63
+          📞 {t.contactPage.phone}
         </motion.a>
       </div>
 
