@@ -18,8 +18,7 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="w-32 h-32 sm:w-40 sm:h-40 mx-auto object-cover mb-8 
         border-4 border-purple-500 rounded-tl-[40px] rounded-br-[40px]
-        shadow-[0_0_30px_#a855f7]"
-      />
+        shadow-[0_0_30px_#a855f7]"/>
 
       {/* NAME */}
       <motion.h1

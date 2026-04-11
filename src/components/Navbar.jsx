@@ -11,7 +11,6 @@ const Navbar = ({ active, setActive }) => {
   const [openLang, setOpenLang] = useState(false);
   const langRef = useRef();
 
-  // 🔥 outside bosilsa yopiladi
   useEffect(() => {
     const handleClick = (e) => {
       if (langRef.current && !langRef.current.contains(e.target)) {
@@ -111,22 +110,22 @@ const Navbar = ({ active, setActive }) => {
                 </svg>
             </button>
 
-            {openLang && (
-              <div className="absolute right-0 mt-3 w-40 bg-base-300 rounded-xl shadow-xl">
-                {languages.map(l => (
-                  <div key={l.code}
-                    onClick={() => {
-                      changeLang(l.code);
-                      setOpenLang(false);
-                    }}
-                    className="px-4 py-2 cursor-pointer hover:bg-purple-500/20  flex gap-2">
-                    <img src={l.flag} className="w-5 h-4 " />
-                    {l.label}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+        {openLang && (
+            <div className="absolute right-0 mt-3 w-40 bg-base-300 rounded-xl shadow-xl">
+              {languages.map((l) => (
+                <div key={l.code}
+                  onClick={() => {
+                    changeLang(l.code);
+                    setOpenLang(false);
+                  }}
+                  className="px-4 py-2 cursor-pointer hover:bg-purple-500/20 flex items-center gap-2">
+                  <img src={l.flag} alt={l.label} className="w-5 h-4"/>
+                  {l.label}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
           {/* GITHUB */}
         <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer"
@@ -139,11 +138,11 @@ const Navbar = ({ active, setActive }) => {
       </div>
 
       {/* 🔝 MOBILE HEADER */}
-      <div className="md:hidden fixed top-0 w-full flex justify-between items-center px-4 py-3 gap-2 backdrop-blur bg-base-100/80 z-50 shadow-md">
+      <div className="md:hidden fixed top-0 w-full flex justify-between items-center px-2 py-3 gap-2 backdrop-blur bg-base-100/80 z-50 shadow-md">
         {/* LANGUAGE SELECT */}
         <div className="relative" ref={langRef}>
           <button onClick={() => setOpenLang(!openLang)}
-            className="btn flex items-center gap-2 text-black bg-gray-400 hover:bg-gray-300">
+            className="btn flex items-center gap-2 rounded-3xl text-black bg-gray-400 hover:bg-gray-300">
             {currentLang?.flag && (
               <img src={currentLang.flag} alt="flag" className="w-5 h-5" />
             )}
@@ -159,7 +158,7 @@ const Navbar = ({ active, setActive }) => {
           </button>
 
           {openLang && (
-            <div className="absolute right-0 mt-3 w-36 bg-gray-200 text-black rounded-xl shadow-lg overflow-hidden z-50">
+            <div className="absolute right-0 mt-2 w-32 bg-gray-200 text-black rounded-xl shadow-lg overflow-hidden z-50">
               {languages.map((l) => (
                 <div key={l.code}
                   onClick={() => {
@@ -167,7 +166,7 @@ const Navbar = ({ active, setActive }) => {
                     setOpenLang(false);
                   }}
                   className="px-4 py-2 cursor-pointer hover:bg-purple-500/20 flex items-center gap-2">
-                  <img src={l.flag} alt={l.label} className="w-5 h-4" />
+                  <img src={l.flag} alt={l.label} className="w-5 h-4"/>
                   {l.label}
                 </div>
               ))}
@@ -179,7 +178,7 @@ const Navbar = ({ active, setActive }) => {
         <div className="dropdown relative">
           <button
             tabIndex={0}
-            className="btn bg-gray-400 text-black hover:bg-gray-300">
+            className="btn rounded-3xl bg-gray-400 text-black hover:bg-gray-300">
             Theme
             <svg
               width="12px"
@@ -191,7 +190,7 @@ const Navbar = ({ active, setActive }) => {
             </svg>
           </button>
           <ul tabIndex={-1}
-            className="dropdown-content absolute right-0 mt-3 w-32 bg-white text-black rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50">
+            className="dropdown-content absolute right-0 mt-0.5 w-32 bg-white text-black rounded-xl shadow-lg p-2 flex flex-col z-50">
             {["black", "retro", "cyberpunk", "valentine", "aqua"].map((theme) => (
               <li key={theme}>
                 <input
@@ -209,7 +208,7 @@ const Navbar = ({ active, setActive }) => {
         <a href="https://github.com/YOUR_USERNAME"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn p-3 bg-gray-400 rounded-md hover:bg-gray-300 transition">
+          className="btn p-3 bg-gray-400 rounded-3xl hover:bg-gray-300 transition">
           <svg height="20"
             width="20"
             viewBox="0 0 16 16"

@@ -60,10 +60,10 @@ const Projects = () => {
   });
 
   return (
-    <div className="p-4 pb-24 text-white max-w-6xl mx-auto">
+    <div className="p-4 text-white max-w-6xl mx-auto">
 
       {/* TITLE */}
-      <h1 className="text-4xl text-purple-400 text-center font-bold mb-4">
+      <h1 className="text-4xl text-purple-400 mb-26 text-center font-bold">
         {t.projects?.title || "Projects"}
       </h1>
 
