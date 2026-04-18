@@ -6,10 +6,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { LanguageProvider } from "./context/LanguageContext";
 
 const App = () => {
   const [active, setActive] = useState("home");
-
+ 
   const renderPage = () => {
     switch (active) {
       case "home":
@@ -26,9 +27,11 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen 
-    bg-[linear-gradient(#222_1px,transparent_1px),linear-gradient(90deg,#222_1px,transparent_1px)]
-    bg-[size:40px_40px]">
+    <LanguageProvider>
+    <div className="min-h-screen bg-[size:40px_40px] 
+    bg-[linear-gradient(#222_1px,transparent_1px),linear-gradient(90deg,#222_1px,transparent_1px)]">
+
+     <Navbar active={active} setActive={setActive} />
 
       <AnimatePresence mode="wait">
          <motion.div
@@ -41,9 +44,8 @@ const App = () => {
           {renderPage()}
         </motion.div>
       </AnimatePresence>
-
-      <Navbar active={active} setActive={setActive} />
     </div>
+ </LanguageProvider>
   );
 };
 

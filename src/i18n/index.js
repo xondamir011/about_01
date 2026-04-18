@@ -286,8 +286,24 @@ projects: {
       skillsTitle: "Teknolojiler",
       featuresTitle: "Yapabildiklerim",
     },
-    skills: {},
-    features: {},
+    
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    
+    features: {
+      seo: { title: "SEO Optimizasyonu", desc: "Arama sıralamasını iyileştir" },
+      design: { title: "Yaratıcı Tasarım", desc: "Modern UI/UX tasarım" },
+      development: { title: "Kaliteli Kod", desc: "Temiz ve ölçeklenebilir kod" },
+      fast: { title: "Hızlı Performans", desc: "Optimize edilmiş web siteleri" },
+    },
 
     contactPage:  {
       name: "Xondamir Madaliyev",
@@ -343,8 +359,24 @@ projects: {
       skillsTitle: "Technologien",
       featuresTitle: "Fähigkeiten",
     },
-    skills: {},
-    features: {},
+   
+     skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    
+    features: {
+      seo: { title: "SEO Optimierung", desc: "Suchmaschinen-Ranking verbessern" },
+      design: { title: "Kreatives Design", desc: "Modernes UI/UX Design" },
+      development: { title: "Qualitätscode", desc: "Sauberer und skalierbarer Code" },
+      fast: { title: "Schnelle Leistung", desc: "Optimierte Websites" },
+    },
 
     contactPage:  {
       name: "Xondamir Madaliyev",
@@ -400,8 +432,24 @@ projects: {
       skillsTitle: "Technologies",
       featuresTitle: "Compétences",
     },
-    skills: {},
-    features: {},
+    
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    
+    features: {
+      seo: { title: "Optimisation SEO", desc: "Améliorer le classement" },
+      design: { title: "Design Créatif", desc: "Design UI/UX moderne" },
+      development: { title: "Code de Qualité", desc: "Code propre et scalable" },
+      fast: { title: "Performance Rapide", desc: "Sites optimisés" },
+    },
 
     contactPage:  {
       name: "Xondamir Madaliyev",
@@ -457,8 +505,25 @@ projects: {
       skillsTitle: "Tecnologías",
       featuresTitle: "Habilidades",
     },
-    skills: {},
-    features: {},
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "Optimización SEO", desc: "Mejorar clasificación" },
+      design: { title: "Diseño Creativo", desc: "Diseño UI/UX moderno" },
+      development: { title: "Código de Calidad", desc: "Código limpio y escalable" },
+      fast: { title: "Rendimiento Rápido", desc: "Sitios optimizados" },
+    },
+    projects: {
+      noProjects:"😕 No se encontraron proyectos",
+    },
 
     contactPage: {
       name: "Xondamir Madaliyev",
@@ -514,8 +579,23 @@ projects: {
       skillsTitle: "Tecnologie",
       featuresTitle: "Competenze",
     },
-    skills: {},
-    features: {},
+    
+     skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "Ottimizzazione SEO", desc: "Migliorare il ranking" },
+      design: { title: "Design Creativo", desc: "Design UI/UX moderno" },
+      development: { title: "Codice di Qualità", desc: "Codice pulito e scalabile" },
+      fast: { title: "Prestazioni Veloci", desc: "Siti ottimizzati" },
+    },
 
     contactPage: {
       name: "Xondamir Madaliyev",
@@ -571,8 +651,23 @@ projects: {
       skillsTitle: "Tecnologias",
       featuresTitle: "Habilidades",
     },
-    skills: {},
-    features: {},
+
+     skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "Otimização SEO", desc: "Melhorar classificação" },
+      design: { title: "Design Criativo", desc: "Design UI/UX moderno" },
+      development: { title: "Código de Qualidade", desc: "Código limpo e escalável" },
+      fast: { title: "Desempenho Rápido", desc: "Sites otimizados" },
+    },
 
     contactPage: {
       name: "Xondamir Madaliyev",
@@ -628,8 +723,23 @@ projects: {
       skillsTitle: "التقنيات",
       featuresTitle: "ماذا أستطيع",
     },
-    skills: {},
-    features: {},
+   
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "تحسين محركات البحث", desc: "تحسين الترتيب" },
+      design: { title: "تصميم إبداعي", desc: "تصميم UI/UX حديث" },
+      development: { title: "كود عالي الجودة", desc: "كود نظيف وقابل للتطوير" },
+      fast: { title: "أداء سريع", desc: "مواقع محسّنة" },
+    },
 
     contactPage: {
       name: "خوندامير مادالييف",
@@ -685,8 +795,23 @@ projects: {
       skillsTitle: "तकनीक",
       featuresTitle: "मेरी क्षमताएं",
     },
-    skills: {},
-    features: {},
+   
+     skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "SEO优化", desc: "提高搜索排名" },
+      design: { title: "创意设计", desc: "现代UI/UX设计" },
+      development: { title: "优质代码", desc: "清洁可扩展代码" },
+      fast: { title: "快速性能", desc: "优化网站" },
+    },
 
     contactPage:  {
       name: "खोंदमिर मादालियेव",
@@ -742,8 +867,23 @@ projects: {
       skillsTitle: "技术",
       featuresTitle: "能力",
     },
-    skills: {},
-    features: {},
+    
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "SEO 최적화", desc: "검색 순위 개선" },
+      design: { title: "창의적 디자인", desc: "현대 UI/UX 디자인" },
+      development: { title: "고품질 코드", desc: "깔끔하고 확장 가능한 코드" },
+      fast: { title: "빠른 성능", desc: "최적화된 웹사이트" },
+    },
 
     contactPage: {
       name: "洪达米尔·马达利耶夫",
@@ -799,8 +939,23 @@ projects: {
       skillsTitle: "기술",
       featuresTitle: "가능한 것",
     },
-    skills: {},
-    features: {},
+    
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    features: {
+      seo: { title: "SEO最適化", desc: "検索ランキング改善" },
+      design: { title: "創造的デザイン", desc: "最新UI/UXデザイン" },
+      development: { title: "高品質コード", desc: "クリーンでスケーラブルなコード" },
+      fast: { title: "高速パフォーマンス", desc: "最適化されたウェブサイト" },
+    },
 
     contactPage: {
       name: "혼다미르 마달리예프",
@@ -856,8 +1011,24 @@ projects: {
       skillsTitle: "技術",
       featuresTitle: "できること",
     },
-    skills: {},
-    features: {},
+    
+     skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind",
+      js: "JavaScript",
+      react: "React",
+      github: "GitHub",
+      node: "Node.js",
+      figma: "Figma",
+    },
+    
+    features: {
+      seo: { title: "SEO最適化", desc: "検索ランキング改善" },
+      design: { title: "創造的デザイン", desc: "最新UI/UXデザイン" },
+      development: { title: "高品質コード", desc: "クリーンでスケーラブルなコード" },
+      fast: { title: "高速パフォーマンス", desc: "最適化されたウェブサイト" },
+    },
 
     contactPage: {
       name: "ホンダミール・マダリエフ",

@@ -10,9 +10,9 @@ export const LanguageProvider = ({ children }) => {
     if (saved) setLang(saved);
   }, []);
 
-  const changeLang = (l) => {
-    setLang(l);
-    localStorage.setItem("lang", l);
+  const changeLang = (code) => {
+    setLang(code);
+    localStorage.setItem("lang", code);
   };
 
   return (
