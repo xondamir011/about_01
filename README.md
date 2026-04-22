@@ -1,16 +1,50 @@
-# React + Vite
+# Mening Haqimda - Portfolio Loyihasi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu loyiha React va Vite yordamida yaratilgan shaxsiy portfolio vebsayti.
 
-Currently, two official plugins are available:
+## Loyihani Boshlash
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### O'rnatish
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+### Ishga Tushirish
+```bash
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vebsayt `http://localhost:5173` da ochiladi.
 
-## Expanding the ESLint configuration
+## Loyiha Tuzilishi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/      # React komponentlari
+├── pages/          # Sahifalar
+├── assets/         # Rasmlar va fayl
+├── App.jsx         # Asosiy komponent
+└── main.jsx        # Entry point
+```
+
+## Texnologiyalar
+
+- **React** - UI kutubxonasi
+- **Vite** - Tez build tool
+- **JavaScript** - Dasturlash tili
+
+## Xususiyatlari
+
+- ⚡ Tez yuklanadi
+- 📱 Mobil uchun moslashgan
+- 🎨 Chiroyli dizayn
+- 🚀 Oson deploy qilish mumkin
+
+## Avtori
+
+Xondamir Madaliyev
+
+---
+
+**Qoida:** Bu README.md ni o'z loyihangizga mos ravishda tahrir qiling.
